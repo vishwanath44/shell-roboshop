@@ -1,6 +1,6 @@
 
 [Unit]
-Description=Payments Service
+Description=Payment Service
 
 [Service]
 User=root
@@ -15,9 +15,9 @@ Environment=AMQP_HOST=rabbitmq.vishwa88s.online
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
 
-ExecStart=/usr/local/bin/uwsgi --ini payments.ini
+ExecStart=/usr/local/bin/uwsgi --ini payment.ini
 ExecStop=/bin/kill -9 $MAINPID
-SyslogIdentifier=payments
+SyslogIdentifier=payment
 
 [Install]
 WantedBy=multi-user.target
