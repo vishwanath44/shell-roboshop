@@ -3,7 +3,7 @@
 SG_ID="sg-043976682ebbf8cd8" # replace with your ID
 AMI_ID="ami-0220d79f3f480ecf5"
 ZONE_ID="Z05013202FKF0ZL12WAOP"
-DOMAIN_NAME="daws88s.online"
+DOMAIN_NAME="vishwa88s.online"
 
 for instance in $@
 do
