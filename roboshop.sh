@@ -2,7 +2,7 @@
 
 SG_ID="sg-043976682ebbf8cd8" # replace with your ID
 AMI_ID="ami-0220d79f3f480ecf5"
-ZONE_ID="Z05013202FKF0ZL12WAOP"
+ZONE_ID="Z02170423JE1RGHUW68WL"
 DOMAIN_NAME="vishwa88s.online"
 
 for instance in $@
